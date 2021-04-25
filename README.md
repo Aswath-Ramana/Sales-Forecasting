@@ -73,7 +73,7 @@ A trend represents a tendency identified in our data. In a stock market scenario
 We will use the [```fbprophet```](https://facebook.github.io/prophet/docs/quick_start.html) package to identify the overall trends for both our datasets. The steps will be:
 
 
-- Select a range for the weather data (between 2007 and 2009)
+- Select a range for the sales data
 - Feed the data to the ```fbprophet.Prophet``` object as a dataframe with two columns: "ds" (for date) and "y" (data) 
 
 - Run the model
